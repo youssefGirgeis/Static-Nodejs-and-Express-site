@@ -1,4 +1,5 @@
-node-modules/
+node_modules
 example-html
-Capture.JPG
-project.docx
+mockups
+*.docx
+*.JPG
