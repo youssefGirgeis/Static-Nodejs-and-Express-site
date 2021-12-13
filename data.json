@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "project_name": "Phrase Hunter",
+      "description": "A browser-based, word guessing game in JavaScript (OOP)",
+      "technologies": ["html", "css", "JavaScript", "OOP JS"],
+      "live_link": "",
+      "github_link": "https://github.com/youssefGirgeis/Phrase-Hunter"
+    },
+    {
+      "project_name": "Dinosaurs",
+      "description": "This project aims to practice real-world scenarios of working with object-oriented JavaScript",
+      "technologies": ["HTML", "CSS", "JavaScript", "OOP JS"],
+      "live_link": "",
+      "github_link": "https://github.com/youssefGirgeis/Dinosaurs"
+    },
+    {
+      "project_name": "Dynamic Landing Page",
+      "description": "This project aims to practice a real-world scenarios of manipulating the DOM",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/youssefGirgeis/Landing-Page"
+    },
+    {
+      "project_name": "Weather-Journal App",
+      "description": "An asynchronous web app that uses Web API and user data to dynamically update the UI.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Asynchronous JS"],
+      "live_link": "",
+      "github_link": "https://github.com/youssefGirgeis/Weather-Journal"
+    },
+    {
+      "project_name": "Fruit Match",
+      "description": "A classic fruit tile matching game with adorable icons and fun animations. Built using HTML5, CSS3, and JavaScript.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/youssefGirgeis/Fruit-Match"
+    }
+  ]
+}
