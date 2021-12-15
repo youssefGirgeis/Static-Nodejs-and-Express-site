@@ -14,6 +14,10 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
+app.get('/project', (req, res) => {
+  res.render('project');
+});
+
 app.listen('3000', () => {
   console.log('app running on localhost 3000');
 });
