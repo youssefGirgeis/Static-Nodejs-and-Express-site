@@ -5,14 +5,22 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 Hello, World 😃
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p This is is a marketing site meant to demonsrtate my myriad skills, including, but not limited to: web development, soft skills, lifelong learning, technical prowess, and the ability to use the word "myriad" correctly in a sentence. Am I hired? 
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
+
+      each project in projects
+        .cell
+          a(href='#')
+            //- img.thumbnail(src='#{project.image_urls[0]}')
+            
+            img.thumbnail(src=`${project.image_urls[0]}`)
+            h5 #{project.project_name}
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       
